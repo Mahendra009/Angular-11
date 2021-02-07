@@ -1,0 +1,21 @@
+.navbar-brand
+{
+	font-size: 30px;
+}
+.navbar-nav
+{
+	font-size: 20px;
+}
+#menuNavbar
+{
+	margin-top: 70px;
+}
+.dropdown:hover>.dropdown-menu
+{
+	display: block;
+}
+
+h2
+{
+	text-align: center;
+}
