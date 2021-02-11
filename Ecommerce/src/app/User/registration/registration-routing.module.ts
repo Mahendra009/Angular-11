@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Route } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { RegistrationComponent } from './registration.component';
 
-const routes: Route[] = [
+const routes: Routes = [
   {path: 'signup', component: RegistrationComponent},
 ];
 
