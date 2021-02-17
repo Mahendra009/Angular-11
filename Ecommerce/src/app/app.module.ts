@@ -7,12 +7,22 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Home/header/header.component';
 import { RegistrationModule } from './User/registration/registration.module';
 import { PagenotfoundModule } from './pagenotfound/pagenotfound.module';
+import { MenuComponent } from './Home/menu/menu.component';
+import { FooterComponent } from './Home/footer/footer.component';
+import { CarousalComponent } from './Home/Carousal/carousal/carousal.component';
+import { DealsoftehdayComponent } from './Home/Carousal/dealsoftehday/dealsoftehday.component';
+import { TrendingComponent } from './Home/Carousal/trending/trending.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    MenuComponent,
+    FooterComponent,
+    CarousalComponent,
+    DealsoftehdayComponent,
+    TrendingComponent
   ],
   imports: [
     BrowserModule,

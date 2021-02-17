@@ -1,0 +1,17 @@
+.carousel-control-prev,
+.carousel-control-next
+{
+     width: 2% !important;
+     height: 20%;
+     background-color: black;
+     top: calc(50% - 20px);
+     opacity: .8;
+}
+.carousel-control-prev
+{
+  left: 0%;
+}
+.carousel-control-next
+{
+  right: 0%;
+}

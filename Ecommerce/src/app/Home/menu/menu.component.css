@@ -1,0 +1,8 @@
+#menuNavbar
+{
+	margin-top: 70px;
+}
+.dropdown:hover>.dropdown-menu
+{
+	display: block;
+}
