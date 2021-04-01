@@ -2,9 +2,9 @@
 .carousel-control-next
 {
      width: 2% !important;
-     height: 20%;
+     height: 15%;
      background-color: black;
-     top: calc(50% - 20px);
+     top: calc(60% - 20px);
      opacity: .8;
 }
 .carousel-control-prev
